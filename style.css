@@ -1,0 +1,425 @@
+body {
+	background: #7f7f84!important;
+	width: 100%;
+}
+
+#vidwrap {
+	background: white;
+	height: 400px;
+}
+
+/*styling of MODELS PAGE*/
+.top {
+	background: white;
+	width: 100%;
+	height: 300px;
+}
+
+.titlebg {
+	background: #7f7f84;
+	width: 100%;
+	height: 100px;
+	border: 1px solid pink;
+}
+
+.title {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.pagebreak4 {
+	height: 80px;
+	background: white;
+}
+
+/*CARASOUL STYLING*/
+
+/*styling of CAR COLUMNS - - INVENTORY PAGE*/
+.modelwrap {
+	background: orange;
+
+}
+#models {
+/*	background: pink;
+	height: 550px;
+	width: 400px;
+	margin: 10px;
+	margin-left: 80px;
+*/
+	border: 2px solid black;
+}
+
+.inside {
+	background: white;
+	height: 650px;
+}
+
+.carphoto {
+	width: 100%;
+}
+
+.carname {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 35px;
+	margin-right: 120px;
+}
+
+.inside hr {
+	background: black;
+	padding: 0;
+	border: 1.5px solid black;
+	width: 50px;
+	margin-left: 50px;
+}
+
+.inside p {
+	float: left;
+	margin-left: 50px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.specswrapper {
+	border: 30px solid white;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.specs {
+	list-style: none;
+	margin-top: 50px;
+	margin: auto;
+	padding: 0;
+	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.specs li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+}
+
+.specs li:nth-child(2n) {
+	background: #e0e0e0;
+}
+
+.specs strong {
+	float: left;
+}
+
+.specs span {
+	margin-right: 60px;
+	float: right;
+}
+
+.buttonwrapper {
+	/*border: 3px solid black;*/
+	height: 130px;
+}
+
+.designbutton {
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    background-color: #bc1600;
+    color: white;
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    border: solid #bc1600;
+}
+
+.designbutton:hover {
+	background-color: white; /* Green */
+    color: black;
+    border: solid black;
+}
+
+.specsbutton {
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin-right: 60px;
+    float: right;
+    position: relative;
+    border: solid black;
+}
+
+.specsbutton:hover {
+	background-color: black; /* Green */
+    color: white;
+  	border: solid black;
+}
+/*End of CAR COLUMNS*/
+
+/* Styling of CAR PAGES*/
+.carshowbg {
+	background: #fcfcfc!important;
+}
+
+#hardtoppic1 {
+	width: 100%;
+}
+
+.cardescrp {
+	height: 100%;
+	border: 2px solid black;
+}
+
+.cardescrp h4 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50px;
+}
+
+.cardescrp hr {
+	border: 1px solid black;
+	background: black;
+	width: 400px;
+	padding: 0;
+}
+
+.cardescrp p {
+	font-size: 25px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.pwrap {
+	width: 600px;
+	border: 2px solid red;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*GALLERY MODAL STYLING*/
+#gallery {
+	border: 2px solid purple;
+	height: 200px;
+	padding: 50px;
+}
+
+#gallerybutton {
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 25px 50px;
+    text-decoration: none;
+    border: none;
+    background-color: #bc1600;
+    color: white;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#gallerybutton:hover {
+	background-color: white; /* Green */
+    color: black;
+    border: 2px solid black;
+}
+.modal-content {
+	background-color: #262626!important;
+	color: white;
+}
+
+.modal-title {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+}
+
+.close {
+	color: white!important;
+}
+
+/*END OF MODAL STYLING*/
+
+.fullspecs {
+	height: 100%x;
+	border: 2px solid red;
+}
+
+.fullspecs h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+
+}
+
+.fullspecs hr {
+	background: black;
+	border: 1px solid black;
+	width: 100px;
+	margin-left: 0px;
+
+}
+
+.fullspecs h4 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 45px;
+}
+
+.fullspecs ul {
+	float: right;
+	display: inline;
+}
+
+.fullspecs li {
+	display: inline;
+	border: 2px solid pink;
+
+}
+
+.fullspecs img {
+	width: 100px;
+	height: 100px;
+}
+/*PAGE BREAKS STYLING*/
+
+.pagebreak {
+	background: #181819;
+	color: white;
+	height: 100%;
+}
+
+.pagebreak ul {
+	list-style: none;
+
+}
+
+.pagebreak li {
+	display: inline-block;
+	padding: 20px;
+
+}
+
+.pagebreak2 {
+	background: #7f7f84;
+	height: 80px
+}
+
+.pagebreak3 {
+	background: #fcfcfc;
+	height: 80px
+}
+/*TABLE STYLING*/
+
+#tablespecs {
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+}
+
+#tablespecs tr td {
+	padding: 20px;
+}
+
+#tablespecs tr:nth-child(2n) {
+	background: #e0e0e0;
+}
+
+.tabledata {
+	border-right: 1px solid #b7b7b7;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.hightlight {
+	color: #707070;
+}
+/*TAX CALCULATORY STYLING*/
+
+.taxcalc {
+	height: 100%;
+	border: 2px solid green;
+	padding: 20px;
+}
+
+.bold {
+	font-weight: bold;
+	width: 800px;
+}
+
+.taxcalc hr {
+	background: black;
+	border: 1px solid black;
+	width: 100px;
+	margin-left: 0px;
+
+}
+
+.taxcalc h4 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 45px;
+}
+
+.taxcalc p {
+	font-size: 25px;
+	font-family: 'Questrial', sans-serif;
+	padding: 20px;
+}
+
+.taxcalc input {
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+	padding: 10px;
+}
+#taxoutput {
+	font-weight: bold;
+	font-size: 80px;
+	float: right;
+	margin-right: 80px;
+	margin-top: -40px;
+}
+
+.gettaxrate {
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    background-color: #bc1600;
+    color: white;
+    border: solid #bc1600;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.gettaxrate:hover {
+	background-color: white; /* Green */
+    color: black;
+    border: solid black;
+}
+
+/*FOOTER STYLING*/
+.footer {
+	background: black;
+	color: white;
+	height: 100%;
+	position: relative;
+	left: 0;
+    bottom: 0;
+}
+
+.footer p {
+	padding: 30px;
+}
+
+/*FONTS*/
+/*font-family: 'Asap Condensed', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Questrial', sans-serif;*/
