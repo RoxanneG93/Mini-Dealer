@@ -3,10 +3,113 @@ body {
 	width: 100%;
 }
 
-#vidwrap {
-	background: white;
-	height: 400px;
+/*STYLING NAVBAR*/
+#links li {
+	margin-right: 10px;
+	margin-left: 10px;
 }
+
+#myInput {
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	outline: none;
+	font-size: 16px;
+
+}
+
+#myUL {
+    /* Remove default list styling */
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    min-width: 220px;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 16px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.show {
+	display: block;
+	margin-left: 28px;
+	padding: 0;
+	outline: none;
+}
+
+#notFound {
+	display: none;
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    min-width: 220px;
+    border: 1px solid #ddd;
+    color: black;
+    background-color: #f6f6f6;
+
+}
+
+/*styling HOME PAGE*/
+#indexbg {
+	background: white!important;
+}
+.newtitle {
+	height: 200px;
+	text-align: center;
+	background: white;
+	padding-top: 100px;
+	width: 100%;
+	margin: 0;
+	font-size: 40px;
+	font-family: 'Fjalla One', sans-serif
+}
+#vidwrap {
+	height: 600px;
+	background: white;
+}
+
+.column {
+	height: 400px;
+	background: #d3d3d3;
+	margin-top: 50px;
+}
+
+.column h2 {
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 50px;
+}
+
+.column hr {
+	width: 100px;
+	background: black;
+	border: 1px solid black;
+}
+
+.column p {
+	font-size: 30px;
+	font-family: 'Questrial', sans-serif;
+	padding: 10px;
+}
+
+#emphasize {
+	color: #6d6d6d;
+}
+
 
 /*styling of MODELS PAGE*/
 .top {
@@ -19,7 +122,8 @@ body {
 	background: #7f7f84;
 	width: 100%;
 	height: 100px;
-	border: 1px solid pink;
+	margin-bottom: 20px;
+	/*border: 1px solid pink;*/
 }
 
 .title {
@@ -43,18 +147,20 @@ body {
 
 }
 #models {
-/*	background: pink;
-	height: 550px;
-	width: 400px;
-	margin: 10px;
-	margin-left: 80px;
-*/
-	border: 2px solid black;
+
+	/*border: 2px solid black;*/
 }
 
+.pagebreak5 {
+	background:  #7f7f84;
+	height: 30px;
+}
 .inside {
 	background: white;
-	height: 650px;
+	height: 740px;
+	padding: 10px;
+	padding-top: 20px;
+	border: 2px solid #7f7f84 ;
 }
 
 .carphoto {
@@ -64,7 +170,6 @@ body {
 .carname {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 35px;
-	margin-right: 120px;
 }
 
 .inside hr {
@@ -72,7 +177,7 @@ body {
 	padding: 0;
 	border: 1.5px solid black;
 	width: 50px;
-	margin-left: 50px;
+	margin-left: 100px;
 }
 
 .inside p {
@@ -85,9 +190,9 @@ body {
 }
 
 .specswrapper {
-	border: 30px solid white;
+	border: 20px solid white;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .specs {
@@ -134,7 +239,7 @@ body {
     background-color: #bc1600;
     color: white;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 10px;
     float: left;
     position: relative;
@@ -181,7 +286,7 @@ body {
 
 .cardescrp {
 	height: 100%;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 }
 
 .cardescrp h4 {
@@ -203,13 +308,13 @@ body {
 
 .pwrap {
 	width: 600px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 /*GALLERY MODAL STYLING*/
 #gallery {
-	border: 2px solid purple;
+	/*border: 2px solid purple;*/
 	height: 200px;
 	padding: 50px;
 }
@@ -249,7 +354,7 @@ body {
 
 .fullspecs {
 	height: 100%x;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 .fullspecs h3 {
@@ -316,6 +421,15 @@ body {
 }
 /*TABLE STYLING*/
 
+#tablehead {
+	background: black;
+	color: white;
+	width: 100%;
+	height: 100px;
+	padding-left: 20px;
+
+}
+
 #tablespecs {
 	font-family: 'Questrial', sans-serif;
 	font-size: 18px;
@@ -342,8 +456,10 @@ body {
 
 .taxcalc {
 	height: 100%;
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	padding: 20px;
+	background: #e0e0e0;
+	border: 15px solid white;
 }
 
 .bold {
@@ -380,7 +496,7 @@ body {
 	font-weight: bold;
 	font-size: 80px;
 	float: right;
-	margin-right: 80px;
+	margin-right: 65px;
 	margin-top: -40px;
 }
 
@@ -405,6 +521,105 @@ body {
     border: solid black;
 }
 
+/*STYLING CONTACT PAGE*/
+form {
+	margin: 20px;
+	padding-bottom: 100px;
+}
+.form {
+	font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+}
+
+#form hr {
+	width: 140px;
+	background: black;
+	border: 1px solid black;
+}
+
+#form p {
+	font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.option {
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+    padding: 10px;
+    font-weight: bold
+    width: 300px;
+}
+
+.form {
+	padding: 20px;
+	font-weight: bold;
+}
+
+.form input {
+	width: 300px;
+}
+.form div {
+	margin-right: 220px;
+}
+
+.form textarea {
+	width: 300px;
+	height: 150px;
+}
+
+/*STYLING ABOUT PAGE*/
+#topimg {
+	width: 100%;
+	border-bottom: 8px solid black
+}
+
+#history h1 {
+	background: white;
+	height: 80px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+}
+
+#historycolumn {
+	background: #e0e0e0;
+	border: 10px solid white;
+	padding: 30px;
+}
+
+#historycolumn img {
+	width: 500px;
+	height: 400px;
+	float: left;
+	padding-right: 30px;
+}
+#historycolumn h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+}
+#historycolumn p {
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	
+}
+
+#historycolumn hr {
+	background: black;
+	border: 2px solid black;
+	width: 100px;
+	margin-left: 50px;
+	
+}
 /*FOOTER STYLING*/
 .footer {
 	background: black;
